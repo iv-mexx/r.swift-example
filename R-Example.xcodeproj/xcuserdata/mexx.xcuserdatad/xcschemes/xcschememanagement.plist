@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GUI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>R-Example.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>5B6141AC1BF22E8C00ABEC2E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5B6141C61BF22EA100ABEC2E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

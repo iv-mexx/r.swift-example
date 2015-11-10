@@ -7,8 +7,24 @@
 //
 
 import UIKit
+import GUI
 
 class ViewController: UIViewController {
+    @IBOutlet weak var containerView: UIView! {
+        didSet {
+            //
+            //  This even crashes with "Could not load NIB in bundle:<mainBundle> with name 'CustomView'"
+            //
+//            if let customView = GUI.customView()?.instantiateWithOwner(nil, options: nil).first as? UIView {
+//                containerView.addSubview(customView)
+//            }
+        }
+    }
+    @IBOutlet weak var imageView: UIImageView! {
+        didSet {
+            imageView.image = GUI.image()
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +35,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

@@ -12,7 +12,39 @@
 		5B6141B61BF22E8C00ABEC2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6141B41BF22E8C00ABEC2E /* Main.storyboard */; };
 		5B6141B81BF22E8C00ABEC2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6141B71BF22E8C00ABEC2E /* Assets.xcassets */; };
 		5B6141BB1BF22E8C00ABEC2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6141B91BF22E8C00ABEC2E /* LaunchScreen.storyboard */; };
+		5B6141CA1BF22EA100ABEC2E /* GUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B6141C91BF22EA100ABEC2E /* GUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B6141CE1BF22EA100ABEC2E /* GUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6141C71BF22EA100ABEC2E /* GUI.framework */; };
+		5B6141CF1BF22EA100ABEC2E /* GUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6141C71BF22EA100ABEC2E /* GUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5B6141D51BF22EC100ABEC2E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6141D41BF22EC100ABEC2E /* Media.xcassets */; };
+		5B6141D71BF22ED600ABEC2E /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6141D61BF22ED600ABEC2E /* CustomView.xib */; };
+		5B6141DB1BF2302F00ABEC2E /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6141DA1BF2302F00ABEC2E /* R.generated.swift */; };
+		5B6141DD1BF2303700ABEC2E /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6141DC1BF2303700ABEC2E /* R.generated.swift */; };
+		5B6141DF1BF2309800ABEC2E /* GUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6141DE1BF2309800ABEC2E /* GUI.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B6141CC1BF22EA100ABEC2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B6141A51BF22E8B00ABEC2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B6141C61BF22EA100ABEC2E;
+			remoteInfo = GUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B6141D31BF22EA100ABEC2E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5B6141CF1BF22EA100ABEC2E /* GUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5B6141AD1BF22E8C00ABEC2E /* R-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "R-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +54,26 @@
 		5B6141B71BF22E8C00ABEC2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B6141BA1BF22E8C00ABEC2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B6141BC1BF22E8C00ABEC2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B6141C71BF22EA100ABEC2E /* GUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6141C91BF22EA100ABEC2E /* GUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUI.h; sourceTree = "<group>"; };
+		5B6141CB1BF22EA100ABEC2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B6141D41BF22EC100ABEC2E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		5B6141D61BF22ED600ABEC2E /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		5B6141DA1BF2302F00ABEC2E /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		5B6141DC1BF2303700ABEC2E /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		5B6141DE1BF2309800ABEC2E /* GUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5B6141AA1BF22E8C00ABEC2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6141CE1BF22EA100ABEC2E /* GUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B6141C31BF22EA100ABEC2E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				5B6141AF1BF22E8C00ABEC2E /* R-Example */,
+				5B6141C81BF22EA100ABEC2E /* GUI */,
 				5B6141AE1BF22E8C00ABEC2E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				5B6141AD1BF22E8C00ABEC2E /* R-Example.app */,
+				5B6141C71BF22EA100ABEC2E /* GUI.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +104,7 @@
 		5B6141AF1BF22E8C00ABEC2E /* R-Example */ = {
 			isa = PBXGroup;
 			children = (
+				5B6141DC1BF2303700ABEC2E /* R.generated.swift */,
 				5B6141B01BF22E8C00ABEC2E /* AppDelegate.swift */,
 				5B6141B21BF22E8C00ABEC2E /* ViewController.swift */,
 				5B6141B41BF22E8C00ABEC2E /* Main.storyboard */,
@@ -64,25 +115,71 @@
 			path = "R-Example";
 			sourceTree = "<group>";
 		};
+		5B6141C81BF22EA100ABEC2E /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				5B6141DE1BF2309800ABEC2E /* GUI.swift */,
+				5B6141DA1BF2302F00ABEC2E /* R.generated.swift */,
+				5B6141C91BF22EA100ABEC2E /* GUI.h */,
+				5B6141CB1BF22EA100ABEC2E /* Info.plist */,
+				5B6141D41BF22EC100ABEC2E /* Media.xcassets */,
+				5B6141D61BF22ED600ABEC2E /* CustomView.xib */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B6141C41BF22EA100ABEC2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6141CA1BF22EA100ABEC2E /* GUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		5B6141AC1BF22E8C00ABEC2E /* R-Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B6141BF1BF22E8C00ABEC2E /* Build configuration list for PBXNativeTarget "R-Example" */;
 			buildPhases = (
+				5B6141D91BF22FE200ABEC2E /* ShellScript */,
 				5B6141A91BF22E8C00ABEC2E /* Sources */,
+				5B6141D31BF22EA100ABEC2E /* Embed Frameworks */,
 				5B6141AA1BF22E8C00ABEC2E /* Frameworks */,
 				5B6141AB1BF22E8C00ABEC2E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5B6141CD1BF22EA100ABEC2E /* PBXTargetDependency */,
 			);
 			name = "R-Example";
 			productName = "R-Example";
 			productReference = 5B6141AD1BF22E8C00ABEC2E /* R-Example.app */;
 			productType = "com.apple.product-type.application";
+		};
+		5B6141C61BF22EA100ABEC2E /* GUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B6141D01BF22EA100ABEC2E /* Build configuration list for PBXNativeTarget "GUI" */;
+			buildPhases = (
+				5B6141D81BF22F6600ABEC2E /* ShellScript */,
+				5B6141C21BF22EA100ABEC2E /* Sources */,
+				5B6141C31BF22EA100ABEC2E /* Frameworks */,
+				5B6141C51BF22EA100ABEC2E /* Resources */,
+				5B6141C41BF22EA100ABEC2E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GUI;
+			productName = GUI;
+			productReference = 5B6141C71BF22EA100ABEC2E /* GUI.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +192,9 @@
 				ORGANIZATIONNAME = mexx;
 				TargetAttributes = {
 					5B6141AC1BF22E8C00ABEC2E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					5B6141C61BF22EA100ABEC2E = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
 				};
@@ -113,6 +213,7 @@
 			projectRoot = "";
 			targets = (
 				5B6141AC1BF22E8C00ABEC2E /* R-Example */,
+				5B6141C61BF22EA100ABEC2E /* GUI */,
 			);
 		};
 /* End PBXProject section */
@@ -128,7 +229,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5B6141C51BF22EA100ABEC2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6141D51BF22EC100ABEC2E /* Media.xcassets in Resources */,
+				5B6141D71BF22ED600ABEC2E /* CustomView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B6141D81BF22F6600ABEC2E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/rswift\" \"$SRCROOT/GUI\" --target GUI\n\n";
+		};
+		5B6141D91BF22FE200ABEC2E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/rswift\" \"$SRCROOT/R-Example\" --target R-Example\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B6141A91BF22E8C00ABEC2E /* Sources */ = {
@@ -137,10 +276,28 @@
 			files = (
 				5B6141B31BF22E8C00ABEC2E /* ViewController.swift in Sources */,
 				5B6141B11BF22E8C00ABEC2E /* AppDelegate.swift in Sources */,
+				5B6141DD1BF2303700ABEC2E /* R.generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B6141C21BF22EA100ABEC2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6141DB1BF2302F00ABEC2E /* R.generated.swift in Sources */,
+				5B6141DF1BF2309800ABEC2E /* GUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B6141CD1BF22EA100ABEC2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B6141C61BF22EA100ABEC2E /* GUI */;
+			targetProxy = 5B6141CC1BF22EA100ABEC2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5B6141B41BF22E8C00ABEC2E /* Main.storyboard */ = {
@@ -249,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "R-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mexx.R-Example";
@@ -260,10 +418,52 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "R-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mexx.R-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B6141D11BF22EA100ABEC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mexx.GUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B6141D21BF22EA100ABEC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mexx.GUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -284,6 +484,14 @@
 			buildConfigurations = (
 				5B6141C01BF22E8C00ABEC2E /* Debug */,
 				5B6141C11BF22E8C00ABEC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B6141D01BF22EA100ABEC2E /* Build configuration list for PBXNativeTarget "GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6141D11BF22EA100ABEC2E /* Debug */,
+				5B6141D21BF22EA100ABEC2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

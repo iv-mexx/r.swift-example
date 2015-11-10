@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bzG-la-3JY">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4F5-G2-AU0">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It Works" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nYc-fW-htW">
+                    <rect key="frame" x="269" y="290" width="63" height="20"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="4F5-G2-AU0" secondAttribute="trailing" id="1Ih-4u-X9J"/>
+                <constraint firstItem="nYc-fW-htW" firstAttribute="centerX" secondItem="bzG-la-3JY" secondAttribute="centerX" id="3hl-w3-19M"/>
+                <constraint firstItem="4F5-G2-AU0" firstAttribute="top" secondItem="bzG-la-3JY" secondAttribute="top" id="95f-WZ-nGs"/>
+                <constraint firstItem="4F5-G2-AU0" firstAttribute="leading" secondItem="bzG-la-3JY" secondAttribute="leading" id="hwx-iF-7Z8"/>
+                <constraint firstItem="nYc-fW-htW" firstAttribute="centerY" secondItem="bzG-la-3JY" secondAttribute="centerY" id="lVd-6d-p2i"/>
+                <constraint firstAttribute="bottom" secondItem="4F5-G2-AU0" secondAttribute="bottom" id="zWi-2R-inv"/>
+            </constraints>
+            <point key="canvasLocation" x="462" y="519"/>
+        </view>
+    </objects>
+</document>
